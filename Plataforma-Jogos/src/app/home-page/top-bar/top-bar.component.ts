@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-bar.component.scss']
 })
 export class TopBarComponent implements OnInit {
+  loggedUser = {
+    _id: "j.simondi",
+  }
 
   constructor() { }
 

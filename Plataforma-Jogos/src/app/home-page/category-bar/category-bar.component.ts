@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./category-bar.component.scss']
 })
 export class CategoryBarComponent implements OnInit {
+  categories = [
+    'Recomendados',
+    'Ofertas',
+    'Notícias'
+  ]
 
   constructor() { }
 

@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { StoreComponent } from './home-page/store/store.component';
 
 
 const routes: Routes = [
   {
-    path: '/store',
-    loadChildren: () => import('src/app/home-page/home-page.module').then(m => m.HomePageModule)
+    path: '',
+    component: StoreComponent,
   },
-  {
-    path: '/',
-    loadChildren: () => import('src/app/home-page/home-page.module').then(m => m.HomePageModule)
-  }
+  // {
+  //   path: '/store',
+  //   component: StoreComponent,
+  // }
 ];
 
 @NgModule({

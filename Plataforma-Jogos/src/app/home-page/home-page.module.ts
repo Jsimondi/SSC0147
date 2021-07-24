@@ -14,6 +14,9 @@ import { GameCatalogComponent } from './game-catalog/game-catalog.component';
   imports: [
     CommonModule,
     HomePageRoutingModule
+  ],
+  exports: [
+    StoreComponent
   ]
 })
 export class HomePageModule { }

@@ -1,11 +1,12 @@
 .top-bar__wrapper {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
-.top-bar__padding {
-    padding: 0px 15%;
-}
+// .top-bar__padding {
+//     padding: 0px 15%;
+// }
 
 .logo__wrapper {
     display: flex;
@@ -32,7 +33,7 @@
 
 .user-icon {
     color: #9A9999;
-    font-size: 1.2em;
+    font-size: 1.8em;
     margin-right: 8px;
 }
 

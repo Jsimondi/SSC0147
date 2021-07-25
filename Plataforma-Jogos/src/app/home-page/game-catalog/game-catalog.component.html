@@ -1,1 +1,13 @@
-<p>game-catalog works!</p>
+<div style="display: flex; flex-direction: column; width: 100%;">
+    <h6 class="title">Outros Jogos</h6>
+    <div class="game-catalog__wrapper">
+        <div *ngFor="let game of games" class="store__game">
+            <img class="game-image" src="{{ game.src }}" width="305px" height="350px">
+            <div class="catalog-info">
+                <span class="seller">Vendedor:</span>
+                <h6 class="user-name">{{ game.userID }}</h6>
+                <h6 class="price">{{ game.price }}</h6>
+            </div>
+        </div>
+    </div>
+</div>

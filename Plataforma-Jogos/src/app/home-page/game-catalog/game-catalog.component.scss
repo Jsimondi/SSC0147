@@ -1,0 +1,58 @@
+.game-catalog__wrapper {
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 8px;
+}
+
+.store__game {
+    display: flex;
+    flex-direction: column;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.02, 1.02);
+    }
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    -webkit-margin-after: 0.5em;
+    margin-block-end: 0.5em;
+    -webkit-margin-before: 1em;
+    margin-block-start: 1em;
+}
+
+.catalog-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 305px;
+    background-color: #07111A;
+    box-shadow: 0 0 10px 5px #000;
+}
+
+.game-image {
+    box-shadow: 0 0 10px 5px #000;
+}
+
+.seller {
+    color: #ffffff;
+    padding: 8px 8px;
+}
+
+.user-name {
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 12px 8px;
+    margin-block-start: 0px;
+    margin-block-end: 0;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #acdbf5;
+    padding: 8px 8px;
+    margin-block-start: 0px;
+    margin-block-end: 0;
+}

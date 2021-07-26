@@ -8,9 +8,10 @@
         <h5 (click)="navigateToChromeExtension()">
             Carteira
         </h5>
-    </div>
-    <div class="user__wrapper">
-        <i class="material-icons user-icon">account_circle</i>
-        <h6>{{ loggedUser._id }}</h6>
+        <div class="user__wrapper" (click)="connectUser()">
+            <h5 *ngIf="!loggedUser?.isLogged">Login</h5>
+            <i class="material-icons user-icon" *ngIf="loggedUser?.isLogged">account_circle</i>
+            <h6 *ngIf="loggedUser?.isLogged">{{ loggedUser._id }}</h6>
+        </div>
     </div>
 </div>

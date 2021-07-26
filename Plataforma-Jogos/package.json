@@ -19,8 +19,14 @@
     "@angular/platform-browser": "~9.1.0-next.5",
     "@angular/platform-browser-dynamic": "~9.1.0-next.5",
     "@angular/router": "~9.1.0-next.5",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "@walletconnect/http-connection": "^1.5.0-rc.7",
+    "@walletconnect/web3-provider": "^1.4.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
+    "web3": "^1.4.0",
+    "web3modal": "^1.9.3",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
@@ -43,5 +49,12 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
+  },
+  "comment": {
+    "crypto": false,
+    "http": false,
+    "https": false,
+    "os": false,
+    "stream": false
   }
 }

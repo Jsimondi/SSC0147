@@ -1,7 +1,7 @@
 # SSC0147
 Front-end do projeto de SSC0147 - Tópicos Especiais em Sistemas de Computação 1 (2021)
 
-# PlataformaJogos
+# Plataforma de Jogos
 
 - Este projeto é um protótipo de uma plataforma que realiza comércio de jogos digitais no contexto da blockchain
 
@@ -31,7 +31,7 @@ No nível da pasta do projeto (SSC0147/Plataforma-Jogos/),
   
 
 
-===============================================================================================================
+============================================================================
 
 Já para o Contrato Inteligente foi utilizado a linguagem solidity, por meio da IDE Remix Ethereum
 

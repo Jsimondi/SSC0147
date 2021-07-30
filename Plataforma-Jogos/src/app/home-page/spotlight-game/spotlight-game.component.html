@@ -1,8 +1,8 @@
 <div class="spotlight__wrapper">
     <h6 class="title">Destaque</h6>
-    <div class="spotlight-box__wrapper">
+    <div class="spotlight-box__wrapper" (click)="donate()">
         <img class="spotlight-game__image" src="./assets/witcher3.jpg" width="60%">
-        <div class="game-info">
+        <div class="game-info" >
             <span class="game-title">{{ spotlightGame.gameName }}</span>
             <span class="game-publisher">{{ spotlightGame.publisher }}</span>
             <span class="seller">Vendedor:</span>

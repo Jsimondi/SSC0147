@@ -10,7 +10,7 @@ import { ContractService } from 'src/app/contract.service';
 export class TopBarComponent implements OnInit {
   loggedUser = {
     isLogged: false,
-    _id: "j.simondi",
+    _id: "r.atakiama",
   }
 
   constructor(
@@ -28,15 +28,7 @@ export class TopBarComponent implements OnInit {
   connectUser() {
     if (this.loggedUser.isLogged === false) {
       this.loggedUser.isLogged = true;
-      // this.contractService.connectAccount();
-      this.contractService.createOrganization(
-        42, 
-        '0x9F887c41362d8f190B1288937961d09f0D20Fcc6',
-        'metamask',
-        '0xa71aE4F58bcdf47e61c29F50Ba00F341D9CFAAdf'
-      )
-    // tokenAdress: 'ETH'
-      // this.contractService.getOrganization();
+      this.contractService.connectAccount();
     } else {
       this.loggedUser.isLogged = false;
       this.contractService.disconnectAccount();
